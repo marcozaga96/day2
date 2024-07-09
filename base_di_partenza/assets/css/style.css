@@ -416,33 +416,7 @@ footer a {
   position: absolute;
   top: -21px;
 }
-.icon-container {
-  position: fixed;
-  bottom: 0;
-  right: -15px;
-  padding: 5px 15px;
-  background-color: #f0f0f083;
-  border: 2px solid white;
-  border-radius: 15px;
-}
-.icon-container1 {
-  position: fixed;
-  top: 1em;
-  right: -15px;
-  padding: 5px 15px;
-  background-color: #f0f0f083;
-  border: 2px solid white;
-  border-radius: 15px;
-}
-.icon-container2 {
-  position: fixed;
-  top: 4em;
-  right: -15px;
-  padding: 5px 15px;
-  background-color: #f0f0f083;
-  border: 2px solid white;
-  border-radius: 15px;
-}
+
 .articole {
   position: relative;
 }
@@ -452,4 +426,68 @@ footer a {
   top: 5px;
   font-size: 50px;
   color: #666;
+}
+@media screen and (min-width: 500px) {
+  .icon-container {
+    position: fixed;
+    bottom: 0;
+    right: -15px;
+    padding: 5px 15px;
+    background-color: #f0f0f083;
+    border: 2px solid white;
+    border-radius: 15px;
+  }
+  .icon-container1 {
+    position: fixed;
+    bottom: 3em;
+    right: -15px;
+    padding: 5px 15px;
+    background-color: #f0f0f083;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: #3f6bca;
+  }
+  .icon-container2 {
+    position: fixed;
+    bottom: 6em;
+    right: -15px;
+    padding: 5px 15px;
+    background-color: #f0f0f083;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: #3f6bca;
+  }
+}
+@media screen and (min-width: 780px) {
+  .icon-container {
+    position: fixed;
+    bottom: 0;
+    right: -15px;
+    padding: 5px 15px;
+    background-color: #f0f0f083;
+    border: 2px solid white;
+    border-radius: 15px;
+  }
+  .icon-container1 {
+    position: fixed;
+    top: 1em;
+    right: -15px;
+    padding: 5px 15px;
+    background-color: #f0f0f083;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: #3f6bca;
+    height: 40px;
+  }
+  .icon-container2 {
+    position: fixed;
+    top: 4em;
+    right: -15px;
+    padding: 5px 15px;
+    background-color: #f0f0f083;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: #3f6bca;
+    height: 40px;
+  }
 }
